@@ -26,8 +26,17 @@ h1 {
 .gallery-container {
   width: 80%;
   max-width: 1300px;
-  margin: 0 auto;
+  margin: 70px auto 0;
   display: flex;
   justify-content: center;
   flex-wrap: wrap;
 }
+
+.item {
+  width: 300px;
+  height: 200px;
+  margin: 10px;
+  flex-shrink: 0;
+  border: 1px solid #fff;
+}
+
