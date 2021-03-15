@@ -26,7 +26,7 @@ h1 {
 .gallery-container {
   width: 80%;
   max-width: 1300px;
-  margin: 70px auto 0;
+  margin: 0 auto;
   display: flex;
   justify-content: center;
   flex-wrap: wrap;
