@@ -11,13 +11,23 @@
   src: url('/fonts/photography/Photography.ttf');
 }
 
-body{
-    background: #232323;
+body {
+  background: #232323;
+  height: 100vh;
 }
 
-h1{
-    text-align: center;
-    font-family: photography;
-    font-size: 8em;
-    color: #fff;
+h1 {
+  text-align: center;
+  font-family: photography;
+  font-size: 8em;
+  color: #fff;
+}
+
+.gallery-container {
+  width: 80%;
+  max-width: 1300px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
 }
